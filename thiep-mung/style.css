@@ -1,0 +1,17 @@
+/*** Đây là style cho tấm thiệp ***/
+body {
+	font-family: 'Dancing Script', Helvetica, sans-serif; /* font dùng cho thiệp. 
+	chị nhớ thay 'Dancing Script' bằng tên font tương ứng nha. 
+	Helvetica và sans-serif là để phòng trường hợp trên máy của người xem không có font Dancing Script.
+	Code sẽ tự chuyển qua một trong hai font này, mà mặc định máy nào cũng có */
+	background-color: #73ffd7; /* màu nền thiệp. chị có thể tìm hex code của màu khác chị thích và thay vào */
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*** Trái tim yêu thương ***/
+.redheart {
+	color:#ff0000; /* đây là hex code cho màu đỏ của trái tim. chị có thể thay màu cũng được. keke */
+}
